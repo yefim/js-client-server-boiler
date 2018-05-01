@@ -16,7 +16,7 @@ app.get('/double', (req, res) => {
 app.post('/enq', (req, res) => {
   queue
     .createJob({
-      template: 'welcome',
+      template: 'passwordReset',
       to: 'name@example.com'
     })
     .timeout(3000)
