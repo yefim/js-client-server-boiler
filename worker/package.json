@@ -1,0 +1,12 @@
+{
+  "name": "worker",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start": "node worker.js"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "bee-queue": "^1.2.2"
+  }
+}
